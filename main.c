@@ -111,7 +111,7 @@ int main(void)
         }
     }
     gameover();
-    printf("Press any key to continue...\n");
+    printf("Press any key to exit...\n");
     getchar();
     return 0;
 }
@@ -157,7 +157,7 @@ void printBoard(void)//¥Ú”°board
     {
         for (j=0;j<n+1;j++)
         {
-            printf("%c",visual_board[i][j]);
+            printf("%c ",visual_board[i][j]);
         }
         printf("\n");
     }
